@@ -1,0 +1,51 @@
+.mainsection {
+    background-color: rgb(221, 219, 219);
+    padding: 30px;
+}
+.head {
+    text-align: center;
+}
+
+.textsection {
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid green;
+    padding: 20px;
+}
+
+.question-head {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+}    
+
+.close {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.showtext .close {
+    display: block;
+}
+
+.showtext .open {
+    display: none;
+}
+
+.question-answer {
+    display: none;
+}
+
+.showtext .question-answer {
+    display: block;
+    border-top: 2px solid green;
+    padding-top: 10px;
+}
